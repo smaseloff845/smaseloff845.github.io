@@ -22,7 +22,7 @@ header a:link {color: var(--text-color)}
 header a:visited {color: var(--text-color);}
 header a:hover {color: var(--secondary-color);}
 nav {color: var(--text-color);
-        background-color: var(--background-color);
+        background-color: var(--primary-color);
         font-size: 120%;
         font-weight: bold;
         padding: 0;
@@ -40,7 +40,7 @@ nav ul{list-style-type: none;
         
 }
 nav a:link {color: var(--text-color);}
-nav a:visited {color: var(--primary-color);}
+nav a:visited {color: var(--secondary-color);}
 nav a:hover {color: var(--accent-color);}
 nav a {text-decoration: none;
         transition:color 3s ease;
@@ -83,47 +83,45 @@ footer {font-size: 75%;
            background-size: 100% 100%;
            background-repeat: no-repeat;
 }
-/*
 #drummerhero {height: 300px;
-           background-image: url();
+           background-image: url(drumset_drumeo.jpg);
            background-size: 100% 100%;
            background-repeat: no-repeat;
 }
 #vocalhero {height: 300px;
-           background-image: url();
+           background-image: url(singerimage.jpg);
            background-size: 100% 100%;
            background-repeat: no-repeat;
 }
 #guitarhero {height: 300px;
-           background-image: url();
+           background-image: url(Rockwood-Electric-Guitar-Red.jpg);
            background-size: 100% 100%;
            background-repeat: no-repeat;
 }
 #keyboardhero {height: 300px;
-           background-image: url();
+           background-image: url(keyboard.jpg);
            background-size: 100% 100%;
            background-repeat: no-repeat;
 }
 #djhero {height: 300px;
-           background-image: url();
+           background-image: url(dj_turntable.jpg);
            background-size: 100% 100%;
            background-repeat: no-repeat;
 }
 * {box-sizing: border-box;}
 
-table {border: 2px solid #3399CC;
+table {border: 2px solid var(--accent-color);
         border-collapse: collapse;
 }
-table th {border: 2px solid #3399CC;
+table th {border: 2px solid var(--accent-color);
         padding: 0.5em;
 }
-table td {border: 2px solid #3399CC;
+table td {border: 2px solid var(--accent-color);
         padding: 0.5em;
         text-align: center;
 }
 .text {text-align: left;}
-tr:nth-of-type(odd) {background-color: #F5FAFC;}
-*/
+tr:nth-of-type(odd) {background-color: var(--secondary-color);}
 
 form {display: flex;
         flex-direction: column;
