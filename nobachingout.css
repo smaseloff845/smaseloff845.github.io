@@ -62,6 +62,7 @@ h2 {color: var(--secondary-color);
 }
 h3 {color: #000000;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 1px 1px 1px var(--primary-color);
 }
 dt {color: var(--primary-color);}
 footer {font-size: 75%;
@@ -121,7 +122,7 @@ table td {border: 2px solid var(--accent-color);
         text-align: center;
 }
 .text {text-align: left;}
-tr:nth-of-type(odd) {background-color: var(--secondary-color);}
+tr:nth-of-type(even) {background-color: var(--primary-color);}
 
 form {display: flex;
         flex-direction: column;
@@ -143,17 +144,6 @@ video{float:right;
     }
     nav li {
         border-bottom: none;
-    }
-
-    section{margin-left: 2em;
-        margin-right: 2em;
-        float: left;
-        width: 33%;
-        flex: 1;
-    }
-    .flow {
-        display: flex;
-        flex-direction: row;
     }
 
     form {width: 60%;
