@@ -65,6 +65,7 @@ h3 {color: #000000;
         text-shadow: 1px 1px 1px var(--primary-color);
 }
 dt {color: var(--primary-color);}
+li {margin-bottom: 1em;}
 footer {font-size: 75%;
         font-style: italic;
         text-align: center;
@@ -135,9 +136,6 @@ textarea {margin-bottom: 0.5em;}
 
 video{float:right;
       margin:1em;
-}
-video::cue {
-        font-size: 1em;
 }
 
 @media (min-width: 600px) {
